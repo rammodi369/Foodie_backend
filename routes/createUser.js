@@ -68,5 +68,6 @@ router.post("/loginUser",[
 
 router.get('/test',(req,res)=>{
     res.json({success : true , message : "Server responds"})
+   res.send('Hello World!')
 })
 module.exports=router;
